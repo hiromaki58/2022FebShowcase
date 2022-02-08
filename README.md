@@ -11,8 +11,8 @@ The code in the 02-account-book composes the Vue interface, and the content of t
 The api.gs works as an API and makes a bridge between the Vue interface and Google spread sheet.
 
 ### Technology used
-Interface: Vue
-Back-end: Google spread sheet
+- Interface: Vue
+- Back-end: Google spread sheet
 
 
 ## 2, AWS_01_educational_institution
@@ -22,10 +22,10 @@ The author can add the new information as an article which includes the basic in
 and it is possible for the admin account to register, modify and delete the author account meanwhile the account can write the own article.
 
 ### Technology used
-Interface: HTML, CSS, JQuery
-Back-end: Java 8
-Database: MySQL
-Server: Apach Tomcat
+- Interface: HTML, CSS, JQuery
+- Back-end: Java 8
+- Database: MySQL
+- Server: Apach Tomcat
 
 ### Installation
 This website is build in the AWS
