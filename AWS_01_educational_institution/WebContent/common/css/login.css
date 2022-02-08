@@ -1,0 +1,331 @@
+@charset "UTF-8";
+/* ==========================================================
+ contents
+========================================================== */
+.contents {
+	min-width: 1215px;
+	margin: 52px auto 0 auto;
+	text-align: left;
+}
+.contents-id-reset {
+  min-width: 1215px;
+  margin: 52px auto 100px auto;
+  text-align: left;
+}
+.contents-main {
+  float: left;
+  width: 911px;
+}
+.contents-sub {
+  float: right;
+  width: 234.5px;
+}
+/* ==========================================================
+ login
+========================================================== */
+.area-ttl-reissue {
+  margin: 0 0 35px 0;
+  position: relative;
+}
+.ttl-reissue {
+  text-align: left;
+  font-size: 40px;
+  line-height: 1.1;
+}
+.sec-login-in {
+  margin: 0 0 50px 0;
+  text-align: left;
+  font-size: 40px;
+  line-height: 1.1;
+}
+.sec-hidden-reissue {
+  display: none;
+  margin: 0 0 50px 0;
+}
+.form-login {
+  width: 600px;
+  margin: 0 auto;
+}
+.form-reissue {
+  width: 600px;
+  margin: 0 auto 0 0;
+}
+.form-login-ttl,
+.form-reissue-ttl {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.125;
+}
+.form-login-ttl {
+  margin: 30px 0 9px 0;
+}
+.form-reissue-ttl {
+  margin: 0 0 9px 0;
+}
+.form-login-input {
+  width: 600px;
+  height: 40px;
+  padding: 0 0 0 5px;
+  font-size: 16px;
+  line-height: 1.125;
+}
+.form-login-button,
+.form-login-button-02 {
+  background: #1C7CD5;
+  margin: 50px auto 43px auto;
+  padding: 12px 34px;
+  display: block;
+  border-style: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #fff;
+}
+.form-login-button-02 {
+  width: 120px;
+}
+.area-login a {
+  margin: 0 0 150px 0;
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+}
+.logo-company a {
+	background: url("/common/img/pc/logo_institution_01.jpg") center centr no-repeat;
+	background-size: 50px 100px;
+}
+.logo-company a img {
+	background: url("/common/img/pc/logo_institution_01.jpg") center centr no-repeat;
+	background-size: 50px 100px;
+}
+/* ==========================================================
+ logout
+========================================================== */
+.area-logout {
+  padding: 52px 0 0 0;
+}
+.sec-logout-in {
+  margin: 0 0 50px 0;
+  font-size: 40px;
+}
+.sec-logout-detail {
+  margin: 0 0 145px 0;
+  font-size: 20px;
+}
+.sec-logout-detail-02 {
+  margin: 0 0 15px 0;
+  font-size: 20px;
+}
+.box-logout {
+  background: #1C7CD5;
+  width: 175px;
+  height: 40px;
+  margin: 0 auto 156px auto;
+  padding: 5px 36px;
+  border-style: none;
+  border-radius: 3px;
+}
+.box-logout a {
+  font-size: 16px;
+  color: #fff;
+}
+/* ==========================================================
+ reissue
+========================================================== */
+.area-reissue {
+	float: right;
+  width: 980px;
+  padding: 0 0 150px 0;
+}
+.area-reissue-02 {
+  width: 980px;
+  padding: 0 0 150px 89px;
+}
+.area-reissue-sub {
+  float: left;
+  width: 234.5px;
+}
+.form-reisue-button {
+  background: #1C7CD5;
+  margin: 50px auto 0 auto;
+  padding: 12px 34px;
+  display: block;
+  border-style: none;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #fff;
+}
+/* ==========================================================
+ set password
+========================================================== */
+.area-set-password {
+	margin: 0 0 120px 0;
+}
+/* ==========================================================
+ reset
+========================================================== */
+.form-reset-in {
+  width: 600px;
+}
+.form-reset-ttl {
+  font-size: 16px;
+}
+.form-reset-mail {
+  padding: 0 0 0 10px;
+  font-size: 20px;
+}
+.btn-registration-password {
+  margin: 103px auto 0 auto;
+  display: block;
+  text-align: center;
+}
+.box-registration-password-01 {
+	width: 100px;
+	height: 49px;
+  margin: 103px auto 150px 0;
+  display: block;
+  text-align: left;
+}
+.box-registration-password-02 {
+  margin: 103px auto 0 auto;
+  padding: 0 0 0 437px;
+  display: block;
+}
+.btn-registration-password-01{
+  background: #1C7CD5;
+  width: 196px;
+  padding: 12px 56px;
+  display: inline-block;
+  border-style: none;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #fff;
+}
+/* ==========================================================
+ id_reset
+========================================================== */
+.box-reset-id-01 {
+  text-align: center;
+}
+.ttl-id-reset {
+  margin: 0 0 100px 10%;
+  text-align: left;
+  font-size: 40px;
+  line-height: 1.1;
+}
+.area-reset-id a {
+  margin: 0 10px 250px 0;
+  display: inline-block;
+  text-align: center;
+  text-decoration: underline;
+}
+.btn-reset-id-01,
+.btn-reset-id-02 {
+  width: 164px;
+  padding: 12px 34px;
+  display: inline-block;
+  border-style: none;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #fff;
+}
+.btn-reset-id-01 {
+  background: #F22735;
+}
+.btn-reset-id-02 {
+  background: #1C7CD5;
+}
+/* ==========================================================
+ id_reissue
+========================================================== */
+.form-id-reissue-ttl {
+  margin: 0 0 15px 0;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.125;
+}
+.form-id-reissue-input {
+  width: 600px;
+  height: 40px;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 5px;
+  font-size: 16px;
+  line-height: 1.125;
+}
+.btn-renew-email {
+  margin: 103px auto 0 auto;
+  display: block;
+  text-align: lefft;
+}
+/* ==========================================================
+ error
+========================================================== */
+.area-error {
+	margin: 0 0 500px 0;
+}
+.sec-error-detail-01,
+.sec-error-detail-02 {
+  font-size: 20px;
+}
+.sec-error-detail-01 {
+  margin: 0 0 145px 0;
+}
+.sec-error-detail-02 {
+  margin: 0 0 0 0;
+}
+.box-error {
+  width: 175px;
+  height: 40px;
+  margin: 0 auto 156px auto;
+  padding: 5px 36px;
+  border-style: none;
+  border-radius: 3px;
+}
+.error-return-button {
+	background: #1C7CD5;
+	margin: 50px auto 43px auto;
+	padding: 12px 34px;
+	display: block;
+	border-style: none;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #fff;
+}
+/* ==========================================================
+ nav-local
+========================================================== */
+.nav-local {
+  text-align: center;
+}
+@media only screen and (min-width: 1240px) {
+  .nav-local {
+    text-align: left;
+  }
+}
+.nav-local li {
+  margin: 0 0 65px 0;
+}
+.nav02 {
+  height: 22px;
+  margin: 0 0 25px 0;
+  padding: 0 0 0 14px;
+  border-left: 2px solid #333;
+  line-height: 1;
+  font-size: 22px;
+  font-weight: bold;
+  color: #4D4D4D;
+}
+.nav-local-in li {
+  margin: 0 0 20px 0;
+}
+.nav-local li a {
+  padding: 0 0 0 14px;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: bold;
+  color: #009ECE;
+}
+.nav-local li a:hover {
+  color: #009ECE;
+  text-decoration: underline;
+}

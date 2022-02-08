@@ -1,0 +1,742 @@
+@charset "UTF-8";
+
+/* ==========================================================
+ マイページに関連するページ全体に共通する部分
+========================================================== */
+.contents {
+  min-width: 1215px;
+  font-family: "M PLUS 1p", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+/* ==========================================================
+ nav-local
+========================================================== */
+.nav-local li {
+  margin: 0 0 65px 0;
+}
+.nav02 {
+  height: 22px;
+  margin: 0 0 25px 0;
+  padding: 0 0 0 14px;
+  border-left: 2px solid #333;
+  line-height: 1;
+  font-size: 22px;
+  font-weight: bold;
+  color: #4D4D4D;
+}
+.nav-local-in li {
+  margin: 0 0 20px 0;
+}
+.nav-local li a {
+  padding: 0 0 0 14px;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: bold;
+  color: #009ECE;
+}
+.nav-local li a:hover {
+  color: #009ECE;
+  text-decoration: underline;
+}
+/* ==========================================================
+ contents
+========================================================== */
+.contents {
+  min-width: 1215px;
+  margin: 52px auto 49px auto;
+  text-align: left;
+}
+.contents-main {
+  float: right;
+  width: 980px;
+}
+.contents-main-main {
+  float: left;
+  width: 684px;
+}
+.contents-main-sub {
+  float: right;
+  width: 296px;
+  height: 296px;
+}
+.contents-main-bottom {
+  min-width: 980px;
+  float: left;
+  margin: 52px auto 0 auto;
+  text-align: left;
+}
+.contents-sub {
+ float: left;
+ width: 234.5px;
+ height: 372px;
+ margin: 0 0 100px 0;
+}
+/* ==========================================================
+ contents-ttl
+========================================================== */
+.contents-ttl {
+  margin: 0 0 40px 0;
+  position: relative;
+}
+.sec-ttl-in {
+  margin: 0 0 48px 0;
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-size: 40px;
+}
+.sec-ttl-in p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+/* ==========================================================
+ mypage
+========================================================== */
+.sec-search {
+  margin: 0 0 87px 0;
+  letter-spacing: -.4em;
+}
+.box-search-keyword {
+  margin: 0 15px 20px 0;
+  display: inline-block;
+  letter-spacing: 0;
+}
+.btn-article-search{
+  background: #1C7CD5;
+  width: 130px;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  border-style: none;
+  border-radius: 5px;
+}
+.ttl-search-keyword {
+  margin: 0 31.56px 0 0;
+  font-size: 22px;
+  color: #A9A9A9;
+}
+.form-input-keyword {
+  width: 600px;
+  height: 40px;
+}
+.box-search-pulldown {
+  margin: 0 0 25px 0;
+}
+.ttl-search-tag {
+  margin: 0 97.56px 0 0;
+  font-size: 22px;
+  color: #A9A9A9;
+}
+.search-mypage-pulldown {
+  width: 278.44px;
+  height: 40px;
+}
+.btn-search-mypage {
+  background:#1C7CD5;
+  width: 130px;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #fff;
+}
+.list-search-result {
+  margin: 0 0 50px 0;
+}
+.ttl-mypage {
+  padding: 0 0 19px 0;
+  border-bottom: 2px solid #a9a9a9;
+}
+.list-mypage {
+  padding: 17px 0 17px 0;
+  border-bottom: 2px solid #a9a9a9;
+  font-size: 0;
+  color: #A9A9A9;
+  position: relative;
+}
+.ttl-mypage-number {
+  margin: 0 46px 0 0;
+}
+.ttl-mypage-article {
+  margin: 0 434px 0 0;
+}
+.ttl-mypage-user {
+  margin: 0 156px 0 0;
+}
+.list-mypage-number-01 {
+  margin: 0 28px 0 0;
+  font-size: 20px;
+  color: #333;
+}
+.list-mypage-number-02 {
+  margin: 0 16px 0 0;
+  font-size: 20px;
+  color: #333;
+}
+.list-mypage-indicator {
+  width: 10px;
+	height: 10px;
+	display: inline-block;
+	margin: 0 14.5px 0 0;
+	font-size: 20px;
+	color: #333;
+	border-radius: 5px;
+}
+.bgc-mypage-indicator-01 {
+  background: #5CB85C;
+}
+.bgc-mypage-indicator-02 {
+  background: #EBD844
+}
+.bgc-mypage-indicator-03 {
+  background: #F22735;
+}
+.baloon-article-activatedmypage {
+  position: absolute;
+  bottom: -22px;
+  left: 41px;
+  z-index: 15;
+  padding: 0.3em 0.5em;
+  color: #FFFFFF;
+  background: #373A3C;
+  border-radius: 4px;
+}
+.baloon-article-activatedmypage:after {
+  width: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0.3em;
+  top: -8px;
+  border-top:8px solid transparent;
+  border-left:8px solid #373A3C;
+}
+.list-mypage-article {
+  width: 520px;
+  height: 31px;
+  margin: 0 16px 0 0;
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: -13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-mypage-article a {
+  font-weight: bold;
+}
+.list-mypage-article a:hover {
+  color: #009ece;
+  text-decoration: underline;
+}
+.list-mypage-selection {
+  background: #fff;
+  width: 150px;
+  height: 50px;
+  padding: 13px 0 0 23px;
+  display: none;
+  position: absolute;
+  bottom: -22px;
+  left: 60px;
+  z-index: 15;
+  font-size: 16px;
+  color: #373A3C;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.list-admin-selection {
+  background: #fff;
+  width: 150px;
+  height: 50px;
+  padding: 13px 0 0 18px;
+  display: none;
+  position: absolute;
+  bottom: -22px;
+  left: 60px;
+  z-index: 15;
+  font-size: 16px;
+  color: #373A3C;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.list-mypage-user {
+  width: 200px;
+  height: 27px;
+  margin: 0 15px 0 0;
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: -8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-mypage-user a {
+ font-weight: bold;
+}
+.list-mypage-user a:hover {
+  color: #009ece;
+  text-decoration: underline;
+}
+.list-mypage-date {
+  width: 110px;
+  font-size: 18px;
+}
+.list-mypage-edit {
+  background: url(/common/img/img_dot_02.png) no-repeat center center;
+  width: 60px;
+  height: 27px;
+  padding: 3px 0 0 5px;
+  display: inline-block;
+  font-size: 11px;
+  border-radius: 4px;
+  position: absolute;
+  top: 22px;
+  right: 0;
+}
+.link-mypage-selection {
+  display: block;
+  font-family: "Helvetica Neue", "Regular" !important;
+  font-size: 16px !important;
+  color: #373A3C !important;
+}
+.list-mypage-edit a {
+  color: #fff;
+  transform: scale(1.1);
+  display: block;
+}
+.list-mypage-edit a:hover {
+  opacity: .7;
+}
+.btn-pagination-search-wrap {
+  text-align: center;
+}
+.btn-pagination-search {
+  display: inline-block;
+}
+.btn-pagination-search a {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-family: "Helvetica Neue","M PLUS 1p", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  color: #1C7CD5;
+  text-decoration: none;
+  border-top: 1px solid #DDD;
+  border-left: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+  float: left;
+}
+.btn-pagination-search a:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.btn-pagination-search a:last-child {
+  border-right: 1px solid #DDD;
+  border-radius: 0 4px 4px 0;
+}
+.btn-pagination-search a:hover {
+  text-decoration: underline;
+}
+.btn-pagination-search-only-one {
+  display: inline-block;
+}
+.btn-pagination-search-only-one a {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-family: "Helvetica Neue","M PLUS 1p", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  color: #1C7CD5;
+  text-decoration: none;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  float: left;
+}
+.btn-pagination-search a:hover {
+  text-decoration: underline;
+}
+/* ==========================================================
+ mypage identity
+========================================================== */
+.contents-ttl-mypage {
+  margin: 0 0 40px 0;
+  position: relative;
+}
+.h1-mypage-activated {
+  margin: 0 0 48px 0;
+  display: inline-block;
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-size: 40px;
+}
+.link-identity {
+  color: #333;
+}
+.link-identity:hover {
+  opacity: .7;
+}
+.box-identity-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box-identity-sentence {
+ margin: 0 20px 0 0;
+ display: inline-block;
+ text-align: center;
+ vertical-align: top;
+}
+.txt-user-name {
+  font-size: 20px;
+}
+.txt-release {
+ background: #5CB85C;
+ width: 90px;
+ height: 27px;
+ border-radius: 5px;
+ font-size: 16px;
+ color: #fff;
+}
+.txt-non-release {
+  background: #EBD844;
+  width: 90px;
+  height: 27px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+}
+.img-user {
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  border-radius:50%;
+}
+/* ==========================================================
+ user search
+========================================================== */
+.ttl-search-number {
+  margin: 0 60px 0 0;
+  font-size: 20px;
+}
+.ttl-search-user {
+  margin: 0 195px 0 0;
+  font-size: 18px;
+}
+.ttl-search-mail {
+  margin: 0 266px 0 0;
+  font-size: 18px
+}
+.list-search-number-01 {
+  margin: 0 28.5px 0 0;
+  font-size: 20px;
+  color: #333;
+}
+.list-search-number-02 {
+  margin: 0 16.5px 0 0;
+  font-size: 20px;
+  color: #333;
+}
+.list-search-number-03 {
+  margin: 0 4.5px 0 0;
+  font-size: 20px;
+  color: #333;
+}
+.list-search-indicator {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin: 0 27.5px 0 0;
+  font-size: 20px;
+  color: #333;
+  border-radius: 5px;
+}
+  .bgc-search-indicator-01 {
+    background: #5CB85C;
+  }
+  .bgc-search-indicator-02 {
+    background: #EBD844
+  }
+  .bgc-search-indicator-03 {
+    background: #F22735;
+  }
+  .baloon-admin-selection {
+    position: absolute;
+    bottom: -22px;
+    left: 35px;
+    z-index: 15;
+    padding: 0.3em 0.5em;
+    color: #FFFFFF;
+    background: #373A3C;
+    border-radius: 4px;
+  }
+  .baloon-admin-selection:after {
+    width: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0.5em;
+    top: -8px;
+    border-top:8px solid transparent;
+    border-left:8px solid #373A3C;
+  }
+.list-search-user {
+  width: 185px;
+  height: 31px;
+  margin: 0 105px 0 0;
+  display: inline-block;
+  font-size: 18px;
+}
+  .list-search-user a {
+    font-weight: bold;
+  }
+    .list-search-user a:hover {
+      color: #009ece;
+      text-decoration: underline;
+    }
+.list-search-mail {
+  width: 300px;
+  height: 27px;
+  margin: 0 98px 0 0;
+  display: inline-block;
+  font-size: 18px;
+}
+.list-search-certification {
+  width: 200px;
+  font-size: 18px;
+}
+  .list-admin-certification {
+    display: inline-block;
+  }
+    .list-admin-certification li {
+      display: inline-block;
+      vertical-align: text-bottom;
+    }
+      .list-admin-certification li img {
+        height: 28px;
+      }
+/* ==========================================================
+ register user
+========================================================== */
+.form-admin-register-user {
+
+}
+  .sec-register-user-01 {
+    margin: 0 0 70px 0;
+  }
+    .ttl-register-user {
+      margin: 0 0 35px 0;
+      padding: 0 0 0 15px;
+      border-left: 4px solid #4d4d4d;
+
+      line-height: 1;
+      letter-spacing: 0em;
+      font-size: 22px;
+      font-weight: bold;
+      color: #4D4D4D;
+    }
+    .form-cmn-01-wrap {
+      width: 602px;
+      margin: 0 0 0 100px;
+      display: flex;
+    }
+	    .ttl-register-user-in {
+	      margin: 0 0 0 100px;
+	    }
+	      .form-cmn-01 {
+	        width: 602px;
+	      }
+	        .btn-registration-user {
+	          margin: 0 auto;
+	          display: block;
+	          text-align: center;
+	        }
+	          .btn-registration-user-01{
+	            background: #1C7CD5;
+	            margin: 50px 0;
+	            padding: 12px 34px;
+
+	            border-style: none;
+	            border-radius: 3px;
+
+	            font-size: 16px;
+	            color: #fff;
+	          }
+	        .form-registrtion-ttl-01 {
+	          margin: 0 0 8px 0;
+	          font-size: 16px;
+	        }
+	          .ttl-register-must {
+	            color: #F22735;
+	          }
+	        .form-registrtion-ttl-02 {
+	          margin: 0 0 14px 0;
+	        }
+	          .form-cmn-02:last-child .form-registrtion-ttl-02 {
+	            margin: 0;
+	          }
+	        .form-registrtion-input-01 {
+	          width: 288px;
+	          height: 40px;
+	          margin: 0 26px 21px 0;
+	        }
+	        .form-registrtion-input-04 {
+	          width: 602px;
+	          height: 40px;
+	          margin: 0 0 0 0;
+	        }
+	          .form-registrtion-input-01::placeholder,
+	          .form-registrtion-input-04::placeholder
+	           {
+	            padding: 0 0 0 10px;
+	          }
+    .form-registrtion-check {
+      width: 602px;
+      margin: 21px 0 28px 100px;
+      display: grid;
+    }
+      .form-registration-ttl-02 {
+	      margin: 0 0 14px 0;
+	    }
+	    .list-certification-consultant {
+	      padding: 0 0 0 19px;
+	    }
+	    .form-registrtion-check label {
+	      display: block;
+	    }
+	      .form-registrtion-check label input {
+	        margin: 0 6px 0 0;
+	      }
+    .hidden {
+       display: none;
+     }
+	    .hidden input {
+	      display: none;
+	    }
+/* ==========================================================
+ register user confirm
+========================================================== */
+.form-registrtion-user {
+  margin: 0 0 28px 0;
+  font-size: 20px;
+}
+  .sec-ttl p {
+    font-size: 20px;
+    color: #333;
+  }
+  .btn-registration-user-02{
+    background: #F22735;
+    margin: 0 45px 0 0;
+    padding: 12px 34px;
+
+    border-style: none;
+    border-radius: 3px;
+
+    font-size: 16px;
+    color: #fff;
+  }
+ /* ==========================================================
+ user info
+========================================================== */
+.list-basic-01 {
+  width: 311px;
+}
+.list-basic-02 {
+  width: 500px;
+}
+.sec-user-info-01 {
+  margin-bottom: 39px;
+}
+.box-registrtion-check {
+  width: 602px;
+  margin: 21px 0 28px 0;
+  display: grid;
+}
+.box-user-sns {
+
+}
+  .txt-detail-01 {
+    width: 899px;
+  }
+  .ttl-user-info {
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-family: "Helvetica Neue","M PLUS 1p", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+    color: #373A3C;
+  }
+  .txt-user-info,
+  .txt-user-info-02,
+  .txt-user-info-03,
+  .txt-user-info-04,
+  .txt-user-info-05,
+  .txt-user-info-06 {
+    font-size: 20px;
+    color: #333;
+  }
+  .txt-user-info {
+    display: block;
+    margin: 0 0 28px 10px;
+    word-break: break-word;
+  }
+  .txt-user-info-03 {
+    margin: 0 0 28px 10px;
+    display: inline-block;
+    font-weight: bold;
+    color: #009ECE;
+  }
+  .txt-user-info-04 {
+    font-weight: bold;
+    color: #009ECE;
+  }
+  .txt-user-info-06 {
+    margin: 0
+  }
+  .btn-user-info {
+    margin: 100px auto;
+    display: block;
+    text-align: center;
+  }
+  .ttl-user-img {
+    margin-left: 50px;
+  }
+	  .form-cmn-02-wrap {
+	    margin: 0 0 0 10px;
+	  }
+	    .form-cmn-03 {
+	      list-style:disc
+	    }
+		    .form-cmn-03:last-child .form-registrtion-ttl-02 {
+		       margin: 0;
+		    }
+    .img-preview img {
+      width: 300px;
+      height: 300px;
+    }
+    .btn-user-img {
+      margin: 50px auto 0;
+      display: block;
+      text-align: center;
+    }
+    .btn-editing-user-01{
+      background: #F22735;
+      margin: 0 100px 0 0;
+      padding: 12px 34px;
+      border-style: none;
+      border-radius: 3px;
+      font-size: 16px;
+      color: #fff;
+    }
+    .btn-editing-user-02{
+      background: #5CB85C;
+      width: 118px;
+      margin: 0 100px 0 0;
+      padding: 12px 0;
+      display: inline-block;
+      border-style: none;
+      border-radius: 4px;
+      border-color: #01A71B;
+      font-size: 16px;
+      color: #fff;
+    }
+    .btn-editing-user-03{
+      background: #1C7CD5;
+      margin: 50px 0;
+      padding: 12px 34px;
+      border-style: none;
+      border-radius: 3px;
+      font-size: 16px;
+      color: #fff;
+    }
