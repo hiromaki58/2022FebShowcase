@@ -1,8 +1,8 @@
 # 2022_Showcase
 This repository has 2 packages as the portfolio.
 
-1. [02-account-book]
-1. [AWS_01_educational_institution]
+1. [02-account-book](#02-account-book)
+1. [AWS_01_educational_institution](#AWS_01_educational_institution)
 
 ## 1, 02-account-book
 ### Purpose
