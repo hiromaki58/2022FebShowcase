@@ -29,7 +29,7 @@
 	<link rel="stylesheet" href="/common/css/user-article.css" media="all">
 	<script src="./common/js/jquery.js"></script>
 	<script src="./common/js/common.js"></script>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyD4yfQbnFiKL06l7BUffsj_E2aBuZw5lts"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?key="></script>
 	<link rel="shortcut icon" type="image/x-icon" href="/common/img/warehouse_favicon.ico">
     <script type="text/javascript" src="/common/js/jquery.min.js"></script>
 	<script type="text/javascript" src="/common/js/readmore.js"></script>
