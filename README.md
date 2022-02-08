@@ -2,15 +2,15 @@
 This repository has 2 packages as the portfolio.
 
 
-1, 02-account-book
-#Purpose
+##1, 02-account-book
+###Purpose
 To create the account book which shows the data with Vue and use Google spread sheet as a database.
 
-#Usage
+###Usage
 The code in the 02-account-book composes the Vue interface, and the content of the api.gs needs to be copied to Google Apps Script.
 The api.gs works as an API and makes a bridge between the Vue interface and Google spread sheet.
 
-#Technology used
+###Technology used
 Interface: Vue
 Back-end: Google spread sheet
 
