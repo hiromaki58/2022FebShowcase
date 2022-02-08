@@ -31,3 +31,6 @@ and it is possible for the admin account to register, modify and delete the auth
 
 ### Installation
 This website is build in the AWS.
+
+### Link
+The sample site is [Canadian corporations](https://aws-warehouse58th.com/index)
