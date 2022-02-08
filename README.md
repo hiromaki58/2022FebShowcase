@@ -15,17 +15,17 @@ Interface: Vue
 Back-end: Google spread sheet
 
 
-2, AWS_01_educational_institution
-#Purpose
+## 2, AWS_01_educational_institution
+### Purpose
 To show the company information with website. 
 The author can add the new information as an article which includes the basic info like name, address and phone number plus detail info up to 4000 characters,
 and it is possible for the admin account to register, modify and delete the author account meanwhile the account can write the own article.
 
-#Technology used
+### Technology used
 Interface: HTML, CSS, JQuery
 Back-end: Java 8
 Database: MySQL
 Server: Apach Tomcat
 
-#Installation
+### Installation
 This website is build in the AWS
