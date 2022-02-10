@@ -38,4 +38,4 @@ The sample site is [Canadian corporations](https://aws-warehouse58th.com/index).
 If you would like to login to the website,
 please access to [user login page](https://aws-warehouse58th.com/user/login).
 - ID:hiromaki01aws@gmail.com
-- Pass: test1234
+- Pass:test1234
